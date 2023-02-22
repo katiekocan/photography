@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Photography</title>
+<link href="global.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+    background-color: #D8CED7;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/camera_rollover220x205.jpg')">
+	<!--wrapper starts //-->
+<div id="wrapper">
+	<header><img src="images/header3p960x250.jpg" width="960" height="250" alt="decorative graphic"/> </header>
+		<!--nav starts //-->
+		<nav>
+			<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="page2.html">ABOUT</a></li>
+			<li><a href="page3.html">GETTING STARTED</a></li>
+			</ul>
+		</nav>
+		<!--nav ends //-->
+	<!-- aside starts //-->
+  <aside>
+	<img src="images/aside3p280x429.jpg" width="280" height="429" alt="decorative graphic"/>
+	</aside>
+	<!-- aside ends //-->
+	<!-- section starts //-->
+  <section>
+	All you need to take up photography is a camera! Any camera will do: your phone camera, a digital camera, a film camera---whatever you can get your hands on will work. However, there is a plethora of other equipment you can use to take your photos to the next level. A tripod will keep your camera level and balanced. Lights, like GVMs, SLs, or fresnels, will give you more creative freedom in creating the light for your space. Light stands will hold these up so you can get exactly the look you envision. Reflectors, dimmers, and other light-altering equipment can further aid in this. Having a nice, open space to use as a studio is also helpful. You can use fabrics or patterns as backdrops.
+	</section>
+	<!-- section ends //-->
+	<!-- footer starts //-->
+	<footer><img src="images/camera220x205.jpg" alt="Photo of canon camera" width="220" height="205" id="Image1" onMouseOver="MM_swapImage('Image1','','images/camera_rollover220x205.jpg',1)" onMouseOut="MM_swapImgRestore()"/> </footer>
+	<!-- footer ends //-->
+	</div>
+	<!-- wrapper ends //-->
+</body>
+</html>

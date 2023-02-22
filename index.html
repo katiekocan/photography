@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Photography</title>
+<link href="global.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+    background-color: #D8CED7;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/camera_rollover220x205.jpg')">
+	<!--wrapper starts //-->
+<div id="wrapper">
+	<header><img src="images/header960x250.jpg" width="960" height="250" alt="decorative graphic"/> </header>
+		<!--nav starts //-->
+		<nav>
+			<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="page2.html">ABOUT</a></li>
+			<li><a href="page3.html">GETTING STARTED</a></li>
+			</ul>
+		</nav>
+		<!--nav ends //-->
+	<!-- aside starts //-->
+  <aside>
+	<img src="images/aside280x429.jpg" width="280" height="429" alt="decorative graphic"/>
+	</aside>
+	<!-- aside ends //-->
+	<!-- section starts //-->
+  <section>
+	Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. It is employed in many fields of science, manufacturing (e.g., photolithography), and business, as well as its more direct uses for art, film and video production, recreational purposes, hobby, and mass communication.
+	Typically, a lens is used to focus the light reflected or emitted from objects into a real image on the light-sensitive surface inside a camera during a timed exposure. With an electronic image sensor, this produces an electrical charge at each pixel, which is electronically processed and stored in a digital image file for subsequent display or processing. The result with photographic emulsion is an invisible latent image, which is later chemically "developed" into a visible image, either negative or positive, depending on the purpose of the photographic material and the method of processing. A negative image on film is traditionally used to photographically create a positive image on a paper base, known as a print, either by using an enlarger or by contact printing.
+	</section>
+	<!-- section ends //-->
+	<!-- footer starts //-->
+	<footer><img src="images/camera220x205.jpg" alt="Photo of canon camera" width="220" height="205" id="Image1" onMouseOver="MM_swapImage('Image1','','images/camera_rollover220x205.jpg',1)" onMouseOut="MM_swapImgRestore()"/> </footer>
+	<!-- footer ends //-->
+	</div>
+	<!-- wrapper ends //-->
+</body>
+</html>
